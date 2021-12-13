@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Ret5Angular'`, () => {
+  it(`should have as title 'retofinal'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Ret5Angular');
+    expect(app.title).toEqual('retofinal');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Ret5Angular app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('retofinal app is running!');
   });
 });
